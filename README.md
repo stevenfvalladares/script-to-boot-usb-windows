@@ -45,4 +45,33 @@ Step 11: then we execute the command to run the script:
  sudo ./script.sh 
  ```
 
- 
+Step 12: once we have finished, we are ready to create the Windows bootable USB, for this we must use the following syntax:
+
+```
+# go to the root directory or home/user    
+cd ~
+
+# run the bootiso command, space path to the .iso file windows
+./bootiso windows_image.iso
+ ```
+
+Step 13: press Enter and we must accept the download and installation of some add-ons:
+
+![screenshot 10](./assets/images/screenshot_10.png)
+
+Step 14: this will give an error because the ISO image contains spaces and we can lose our minds looking for the error, to correct it we simply go back to the properties and remove the spaces in the Windows 10 ISO name:
+
+![screenshot 11](./assets/images/screenshot_11.png)
+
+Step 15: when executing the command again with this change we can see that the USB is detected with its respective capacity and characteristics:
+
+![screenshot 12](./assets/images/screenshot_12.png)
+
+Step 16: there we enter the letter "y" to confirm the process and everything related to the creation of the Windows bootable USB will take place:
+
+![screenshot 13](./assets/images/screenshot_13.png)
+
+Then all the necessary files will be copied to the Windows USB, in this case the version of Windows used is version 10.
+
+![screenshot 14](./assets/images/screenshot_14.png)
+
