@@ -34,6 +34,6 @@ At the end of the process, the utility automatically ejects the USB from the Lin
 
 **Step 2**: We connect the USB drive again and access the content, we will see all the files necessary to correctly install Windows from this medium.
 
-![screenshot 2](./assets/images/screenshot_2.png)
+![screenshot 2](./assets/images/end_screen.png)
 
 With this process it is possible to create a bootable Windows USB directly from any Debian or Ubuntu based GNU/Linux distribution.
